@@ -1,0 +1,11 @@
+{
+  "version": "1.0.5",
+  "notes": "Atualização oficial v1.0.5:\\n- Seleção interativa de opções de download (Torrent, Mediafire, Gofile, Filekeeper, Datanodes) ao clicar em Baixar Jogo\\n- Opção Continuar compartilhando após baixar (seeding P2P) permanentemente ativada e inalterável\\n- Unificação de títulos e fontes diretas e P2P\\n- Eliminação de erros de interface e estabilidade aprimorada",
+  "pub_date": "2026-10-31T20:58:26.744Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYThZcjlROHp2YjFYYU1iTU5laUhUaVJRRDFsYXI2U1lBT20wbDNCdE84ekt5Q0tBVnNoNFN1c2dPcHczdXUxK21VcFVhcVBVWW5hNTQycndYbkFCNDFqamJ5YUNraXdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNDgwMjgwCWZpbGU6VmFwb3IgR2FtZSBMYXVuY2hlcl8xLjAuNV94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4wLjUKM012dlBFUGhGcnhFaGNmaHBBbUhFTGFBbEdWdUxXS3c5YXBneVNCeGFSOURReVoyVk4ycUtQVmZwTlJ6bDBNQWF3VWdpdXA4V1VqWjl5Qm1ydjdERGc9PQo=",
+      "url": "https://github.com/thiagoservicos23-cmd/vapor-releases/releases/download/v1.0.5/Vapor.Game.Launcher_1.0.5_x64-setup.exe"
+    }
+  }
+}
