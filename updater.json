@@ -1,11 +1,11 @@
 {
-  "version": "1.1.19",
-  "notes": "# Vapor Game Launcher 1.1.19\r\n\r\n- Corrige a resolucao de downloads diretos Gofile e FuckingFast, preservando cookies, autenticacao e os links gerados pelas paginas.\r\n- Identifica arquivos binarios pela assinatura quando o servidor nao informa Content-Type, mantendo a rejeicao de HTML e JSON.\r\n- Recupera consultas temporariamente limitadas com ate tres tentativas, espera progressiva e respeito a Retry-After. A pausa interrompe a espera.\r\n- Diferencia fonte removida, conexao bloqueada e limite temporario; tenta outra fonte disponivel para o mesmo jogo.\r\n- Corrige capas ocultas, falhas guardadas sem nova tentativa e bloqueio de outras buscas apos um jogo sem imagem. Usa alternativas da Steam, do catalogo e do cache, com um fallback visivel do Vapor quando nenhuma capa esta disponivel.\r\n- Respeita a preferencia por imagens estaticas e tenta recuperar buscas de capas apos falhas temporarias.\r\n- Preserva o motor torrent, os arquivos parciais, o licenciamento, o chat e os saves.\r\n\r\nValidacao: cinco jogos distintos confirmaram resolucao e amostras externas ZIP/RAR de 1025 bytes nos provedores Gofile e FuckingFast. Os testes nao representam downloads integrais nem instalacao dos jogos. Links removidos, bloqueios e verificacoes interativas continuam sujeitos aos provedores; Viking nao possui amostra externa confirmada.\r\n\r\nEntrega local para envio manual ao GitHub. Nenhuma publicacao ou instalacao automatica.",
-  "pub_date": "2026-11-09T16:08:02.208Z",
+  "version": "1.1.21",
+  "notes": "# Vapor 1.1.21\r\n\r\n- Vapor Mobile: QR temporario autenticado, consumo atomico e credencial propria protegida no Android.\r\n- HTTPS obrigatorio, limites de tentativas, revalidacao continua e bloqueio no vencimento.\r\n- Capas, streaming, torrents, saves, chat e Pix preservados.",
+  "pub_date": "2026-11-09T22:08:04.120Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYThZcjlROHp2YjNLaXlTbGxjSC9JR1Rsc0RYT0dtUEdDbGoxeGo5RTlWVnFIbU9rS0wzVVVtdzR6NUNlelpiUkNRYWFYWXdlSDFSZzQyc2dQV3hDWm1aLzlCU3hQcWdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MjMyMzY3CWZpbGU6VmFwb3IgR2FtZSBMYXVuY2hlcl8xLjEuMTlfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjEuMS4xOQpodnVxZ1l1cDV2SloxdE9ScXJ0OGtHN2NzTXpqOFZVU1BmSjBIdDhNMUZXdmtmRTEwcWNuT3VrMUtKUUJOdkUwVWRvZHVVZ0RDYVExODEvYUhHUkVBZz09Cg==",
-      "url": "https://github.com/thiagoservicos23-cmd/vapor-releases/releases/download/v1.1.19/Vapor.Game.Launcher_1.1.19_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYThZcjlROHp2YjNSd2RzSUhFblJQYkd0dG5FeEE0OVVtYW4yd3Zwa3Flc0FIcDFvYkhtSTErRlh2NXZVNUQyUmk4QXVJV3RTMk1JUFUvUUZFbFZlNWZqRHhmU2lXSHdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MjYyMDUwCWZpbGU6VmFwb3IgR2FtZSBMYXVuY2hlcl8xLjEuMjFfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjEuMS4yMQoyTUJ0dlpobjhEcVNHT0pCS2VZN012bGtpYnM3TnQrYTI4WWJLWGJQbSswRVhhQndHZlliNlYxdkd6WEdTN0lnTjNjZHJOVVUwTFZSWkpWSlc3YTVCdz09Cg==",
+      "url": "https://github.com/thiagoservicos23-cmd/vapor-releases/releases/download/v1.1.21/Vapor.Game.Launcher_1.1.21_x64-setup.exe"
     }
   }
 }
