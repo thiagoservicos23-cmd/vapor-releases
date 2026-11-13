@@ -1,11 +1,11 @@
 {
-  "version": "1.1.27",
-  "notes": "# Vapor 1.1.27\r\n\r\n- Corrigido o encaminhamento dos canais Vapor TV pelo transporte local de midia do aplicativo.\r\n- Deteccao de HLS, MP4 e MPEG-TS nos canais ONE TV, incluindo playlists em enderecos .ts.\r\n- Respostas HTTP de erro e conteudo sem video deixam de ser enviados ao decodificador.\r\n- Preservados o catalogo ONE TV e a selecao de qualidade.\r\n\r\nValidacao: reproducao de videos locais no Edge e testes de transporte aprovados. A disponibilidade dos canais reais depende da origem; a verificacao nesta rede expirou sem resposta. Nenhuma alteracao de DNS/VPN ou instalacao de proxy externo.",
-  "pub_date": "2026-11-12T09:08:25.018Z",
+  "version": "1.1.30",
+  "notes": "# Vapor Game Launcher v1.1.30\n\n- Vapor TV: reconhecimento e reprodução dos 1.458 canais e 42 categorias do catálogo ONE TV (sondagem com compatibilidade para transmissões ao vivo, suporte a sincronismo MPEG-TS e fallback automático entre qualidades/fontes).\n- Buffer de reprodução ampliado para ~30 segundos no HLS (`hls.js`) e MPEG-TS (`mpegts.js`), preservando o cachê sem descartes prematuros por perseguição de latência.\n- Otimizações anti-travamento: `BufReader` de 256 KB no proxy nativo Rust, salto automático de micro-lacunas no stream, histerese suave em `waiting` e recuperação de rede transparente.",
+  "pub_date": "2026-11-13T21:13:49.094Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYThZcjlROHp2YjFrWVVaZkRONkxkT2FYWFFBMkdtODg5N01zZmtaeENsUlRvZGdoQ1FyTTluMTBvY3dVdHhlS05oQ3pYekhHcG51eDhtZWpod0RaOEYxT0Z3MGQ2V3dJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDc0NDY2CWZpbGU6VmFwb3IgR2FtZSBMYXVuY2hlcl8xLjEuMjdfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjEuMS4yNwowd01CNWZ3K2Vmc1NuRis3R3VzZE5FVURXeUJMV09PMHF1azk4bXJHNzhVemFGczhvR2JEeHB3aUtyajRidVhMWTY2U0Zyaklod253V1FvMEU4Y1BEQT09Cg==",
-      "url": "https://github.com/thiagoservicos23-cmd/vapor-releases/releases/download/v1.1.27/Vapor.Game.Launcher_1.1.27_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYThZcjlROHp2YjRDYkZGTFZGVUxMMkVnWE9oSlFndzRjN01HWGlWVnMxY0QzNXU0UnFuVGVFbFpTUzZZZS9DSSt2WTJaek5lZE81aDdoYUVZeWZscTRsSHhYaG8wSVFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NjA0MzYxCWZpbGU6VmFwb3IgR2FtZSBMYXVuY2hlcl8xLjEuMzBfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjEuMS4zMApza3JNNk5MRUI0dFVLMG1YTVB6a3lyQ0JBdzFteGVVSGJvRXFyNkRkYnQ1emkzSnYwVXFadHVvRnNZaGpRZldIa0NvRWpWOTYwWFR0MzRINUllSllBdz09Cg==",
+      "url": "https://github.com/thiagoservicos23-cmd/vapor-releases/releases/download/v1.1.30/Vapor.Game.Launcher_1.1.30_x64-setup.exe"
     }
   }
 }
