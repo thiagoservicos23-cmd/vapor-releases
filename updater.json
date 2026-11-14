@@ -1,11 +1,11 @@
 {
-  "version": "1.1.32",
-  "notes": "# Vapor Game Launcher v1.1.32\n\n- Atualização de manutenção e estabilidade da plataforma.\n- Vapor TV: catálogo completo ONE TV integrado (1.458 canais e 42 categorias).\n- Buffer de reprodução ampliado para ~30 segundos (HLS e MPEG-TS).\n- Otimizações no proxy nativo de mídia e recuperação contínua de reprodução.\n- Preservadas as integrações do Vapor Mobile, downloads e gerenciamento da biblioteca.",
-  "pub_date": "2026-11-14T00:20:29.922Z",
+  "version": "1.1.33",
+  "notes": "# Vapor Game Launcher v1.1.33\r\n\r\n- Restaurada a Vapor TV atualizada do projeto fornecido, com catalogo EmbedTV. A verificacao da entrega agora bloqueia o retorno silencioso da interface ONE TV antiga.\r\n- Corrigido o clique real em Ver agora: painel de hover nao e mais removido duas vezes durante a troca de foco.\r\n- Capas e Ver agora abrem uma pagina de detalhes com descricao, generos, ano e botao Assistir, que abre o player existente. Fechar o player retorna ao item.\r\n- Animes, Filmes e Series abrem em grade com rolagem vertical e capas2:3. Inicio mantem as fileiras.\r\n- Teclado virtual invisivel nao intercepta cliques; foco de teclado e restaurado entre detalhes/player.\r\n- Preservados Fontes Vapor, avanco de episodios/temporadas, addons e correcao Mobile.\r\n\r\nTestes de mouse real simulado no navegador e decodificacao de midia usam fixtures locais. Disponibilidade dos provedores externos nao foi confirmada nesta etapa. Extensao AdBlock do aplicativo TV separado nao foi incorporada.",
+  "pub_date": "2026-11-14T00:51:03.972Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYThZcjlROHp2Yjh6Sm1kQStiakZlZytCdE1nY0hKSmFEbXNaa1VNQmRXOURJSEJaOW9PMSt4MlJYWGZ2aFZQYXVyUkMxWVg5RFZabkUrSGZLbEJUMjh0Q0NoTG1WMkE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NjE1NjIxCWZpbGU6VmFwb3IgR2FtZSBMYXVuY2hlcl8xLjEuMzJfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjEuMS4zMgpBQWQ3S2tDSVJFbzFMRXk5TXVDZncvZ2J0NTZDOGlEUDkyRkRGUWFDNjdsOHFKaThBK2RIUm9LNlFIeStNL2pVZE50bTdHT3dSYUxuKzM3OGpvbUxDQT09Cg==",
-      "url": "https://github.com/thiagoservicos23-cmd/vapor-releases/releases/download/v1.1.32/Vapor.Game.Launcher_1.1.32_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYThZcjlROHp2YjlROEpqYTJ6V3lMbmtVOEFuQk1xNTV1cDIrd1hobE9zeTdFbGVYWERTV2VkUHlmZHZNT1haR2U0OE9CUXdobnhBVGdISWlDa1ZuN0hOYjd1Lyt0RWcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NjE3NDA4CWZpbGU6VmFwb3IgR2FtZSBMYXVuY2hlcl8xLjEuMzNfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjEuMS4zMwpxamNSZ2FUMmFzMUdzVWY1TWFpTnR5cTg4MWhiT0pLQ0FmNWE0UlhFbTFXODhmQ1o0WnZhTkU4QmU4SHEyYTJxT1Y2YW55L1FHbGZhQmw3NkJzOG5BZz09Cg==",
+      "url": "https://github.com/thiagoservicos23-cmd/vapor-releases/releases/download/v1.1.33/Vapor.Game.Launcher_1.1.33_x64-setup.exe"
     }
   }
 }
