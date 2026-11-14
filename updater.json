@@ -1,11 +1,11 @@
 {
-  "version": "1.1.31",
-  "notes": "# Vapor Game Launcher v1.1.31\r\n\r\n- Corrigida a perda da configuracao HTTPS do Vapor Mobile em builds sem a variavel de ambiente, identificada no instalador 1.1.29.\r\n- Endereco de download e autenticacao mantido na configuracao de distribuicao do projeto.\r\n- Verificacao do pacote passa a exigir o endpoint Mobile e o gerador de QR Code no executavel.\r\n- Preservadas a TV atualizada e a janela Mobile com QR de download e vinculacao.",
-  "pub_date": "2026-11-13T22:55:30.844Z",
+  "version": "1.1.32",
+  "notes": "# Vapor Game Launcher v1.1.32\n\n- Atualização de manutenção e estabilidade da plataforma.\n- Vapor TV: catálogo completo ONE TV integrado (1.458 canais e 42 categorias).\n- Buffer de reprodução ampliado para ~30 segundos (HLS e MPEG-TS).\n- Otimizações no proxy nativo de mídia e recuperação contínua de reprodução.\n- Preservadas as integrações do Vapor Mobile, downloads e gerenciamento da biblioteca.",
+  "pub_date": "2026-11-14T00:20:29.922Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYThZcjlROHp2YitHQmlrTnM2ZXB6bTM5cEE1cElzVDdRZ1JPUXZ2SXAvK0JqV3hqSnZDWC93dlo1NE92M0xWMm1Rd1JVbHZqQ0JKVjZRaG5Rb1ZEeThxLzV4eGxQU2drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NjEwNDkzCWZpbGU6VmFwb3IgR2FtZSBMYXVuY2hlcl8xLjEuMzFfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjEuMS4zMQpYNGRkWElmNi9NWDI1OCtTQU5odGdhb21mZFlLWFpMVHE4alpNa3l2alZSMkNrSWkwMCtGNGE3OWdweE1OcksrWHFEM3FUcFhrZG91eFo0RDVwTTREdz09Cg==",
-      "url": "https://github.com/thiagoservicos23-cmd/vapor-releases/releases/download/v1.1.31/Vapor.Game.Launcher_1.1.31_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYThZcjlROHp2Yjh6Sm1kQStiakZlZytCdE1nY0hKSmFEbXNaa1VNQmRXOURJSEJaOW9PMSt4MlJYWGZ2aFZQYXVyUkMxWVg5RFZabkUrSGZLbEJUMjh0Q0NoTG1WMkE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NjE1NjIxCWZpbGU6VmFwb3IgR2FtZSBMYXVuY2hlcl8xLjEuMzJfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjEuMS4zMgpBQWQ3S2tDSVJFbzFMRXk5TXVDZncvZ2J0NTZDOGlEUDkyRkRGUWFDNjdsOHFKaThBK2RIUm9LNlFIeStNL2pVZE50bTdHT3dSYUxuKzM3OGpvbUxDQT09Cg==",
+      "url": "https://github.com/thiagoservicos23-cmd/vapor-releases/releases/download/v1.1.32/Vapor.Game.Launcher_1.1.32_x64-setup.exe"
     }
   }
 }
