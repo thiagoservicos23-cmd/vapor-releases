@@ -1,11 +1,11 @@
 {
-  "version": "1.1.38",
-  "notes": "# Vapor Game Launcher 1.1.38\n\n- Novo nono atalho na tela inicial: Vaporported Browser, com ícone de navegador e controle.\n- Catálogo de jogos para navegador aberto em janela própria, com perfil separado do motor de downloads.\n- Botão “Voltar ao início do Vapor” para retornar à tela principal; fechar o navegador também devolve o foco ao Launcher.\n- Oito atalhos anteriores, motor de downloads, chat e licenciamento preservados.\n\nVaporported Browser criado por Xerife Tech. Catálogo e jogos dependem de conexão com a internet e da disponibilidade dos respectivos sites.",
-  "pub_date": "2026-11-16T01:16:03.889Z",
+  "version": "1.1.39",
+  "notes": "# Vapor Game Launcher 1.1.39\n\n- Conexão do licenciamento e do teste gratuito por HTTPS na porta 443, em endereço exclusivo do Launcher.\n- Novos testes com 5 dias de acesso, preservando os prazos de testes já concedidos e as licenças pagas.\n- Compatibilidade com as sessões e ativações separadas do Vapor Max Individual e do VDMods preservada.\n- Identificação do computador, licenças pagas e prazo dos testes existentes preservados.\n- Inclui a animação VG já preparada para o Retro 1x1, sem substituir prévias reais dos jogos.\n\nQuem estiver sem acesso ao licenciador pela porta 8080 deve instalar esta atualização. Um teste já utilizado no mesmo computador não é reiniciado.",
+  "pub_date": "2026-11-16T16:47:51.825Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYThZcjlROHp2YjNSc24rZ0hWKzYyYUQ0SVcrc0IvbExTTmxkOWJRQXgzenc0d01RVEozN3JKcXdmY2dtRkNUbldUVmtqeGFpL2lBNW5VODNKWlNyMERpK2hZZ3Y2V3drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NzkxNzAzCWZpbGU6VmFwb3IgR2FtZSBMYXVuY2hlcl8xLjEuMzhfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjEuMS4zOApZZUhnM0dFVlZTVi9ldVRYcXJGUEdIUk5xdzNxaTg3YXo4S3RPRjFCVk5yTHE2MktwZVZNSTBOVWtrOVpYd29GOHk0bVJGQ0VmMUFMYWkwcGtQU3FBZz09Cg==",
-      "url": "https://github.com/thiagoservicos23-cmd/vapor-releases/releases/download/v1.1.38/Vapor.Game.Launcher_1.1.38_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYThZcjlROHp2Yi94cjBBU0VzMjdqWHVaSnpjUWdvandMSFRKdzMzdW1ENitzZTBkTHlKd0ZveTR3NDVsc3d2VkVCdXZSSWhCZlhkZjJwN3pvK3M5K0tldDkxSU44cGdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODQ3NjU0CWZpbGU6VmFwb3IgR2FtZSBMYXVuY2hlcl8xLjEuMzlfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjEuMS4zOQpwVXZYQzNkV21aNDgwZlMwRzJXYVlHdVJWVjhlRjFSajIzZzEyZGRDTTVPYUVaQWJoZ21iVFY5STBmWjdzVTBxeDcwRzhzaDVFbU84Y1VDb21hbXdBQT09Cg==",
+      "url": "https://github.com/thiagoservicos23-cmd/vapor-releases/releases/download/v1.1.39/Vapor.Game.Launcher_1.1.39_x64-setup.exe"
     }
   }
 }
