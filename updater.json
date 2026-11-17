@@ -1,11 +1,11 @@
 {
-  "version": "1.1.40",
-  "notes": "# Vapor Game Launcher 1.1.40\r\n\r\n- Tvvio adicionado como fonte de TV ao vivo no Vapor Streaming, mantendo os addons existentes.\r\n- Vapor TV passa a usar o catalogo Stremio Tvvio no lugar do EmbedTV, preservando a grade, busca, favoritos e troca de canais.\r\n- Reproducao HLS pelo proxy local autenticado, com cabecalhos da fonte, tentativa de alternativas e cancelamento ao fechar ou trocar de canal.\r\n- Licenciamento HTTPS e teste de cinco dias preservados. Disponibilidade dos canais depende da fonte externa.",
-  "pub_date": "2026-11-17T03:21:25.358Z",
+  "version": "1.1.41",
+  "notes": "# Vapor Game Launcher 1.1.41\r\n\r\n- Streaming abre com metadados dos addons salvos no PC e atualiza os catalogos pela rede; TMDB passa a ser complemento.\r\n- Cache limitado, recuperacao offline, busca local imediata e manutencao das onze categorias da tela inicial.\r\n- Menu Catalogos dos addons com categorias e generos publicados pelas fontes configuradas.\r\n- Fontes: FenixFlix, Streaming Catalogs, Tvvio, Nexus, Mico-Leao Dublado, Animes BR, HentaiStream e IracemaFlix. A disponibilidade depende de cada provedor; fontes exclusivamente P2P nao sao videos HTTP reproduziveis neste player.\r\n- Identificadores proprios, episodios e cabecalhos das fontes preservados. Tentativa automatica da proxima fonte apos falha, incluindo HTTP 502, e musica de fundo removida.\r\n- MAX interno 14.0.1: adicao por link exige Lua e manifests, com manifests em Steam/depotcache; validacao de pacote, gravacao verificada e recuperacao de arquivos em falhas. Proxy e licenciamento preservados.",
+  "pub_date": "2026-11-17T04:40:01.938Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYThZcjlROHp2YjFKdHFOdjM5N3FYc25UWnNTL2F1bk1VRDJBbXN2eW1iNllTODhxQTFmaUNLOSszeUd4dHpieHczUmJlVkhtYU1QT2VUQTF4VHFjMUs1Nk85TUhsMEF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODg1NjcwCWZpbGU6VmFwb3IgR2FtZSBMYXVuY2hlcl8xLjEuNDBfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjEuMS40MApNS3V6UzhaeG5pOUtkRnpoWXFZTHFpbUtTdld3WS84cjRWRmw0TG9US3kxaENSVVp0QlhxclM5TGdnYjFmemdEcWpuVDF0Y21NTTBwVXUwaWRHYUFBZz09Cg==",
-      "url": "https://github.com/thiagoservicos23-cmd/vapor-releases/releases/download/v1.1.40/Vapor.Game.Launcher_1.1.40_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYThZcjlROHp2YjMzK0JzWWdUYm50UEREcFFlZ3ZJcVY2NWFweVR2SjZxZm1lYmtTWUtnUFFlUnFHMFFCa3A3NVRDNFAwVFEvNWs3UEZPVXJhRDhRNlY1bE40bGwwK1FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODkwMzM4CWZpbGU6VmFwb3IgR2FtZSBMYXVuY2hlcl8xLjEuNDFfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjEuMS40MQp3ZnlPRDNVbUUvUjl3N1RLV29BUGNSSlM5U01jZGRJcHBYNXNZaUwwNlR1MXZYL0RuVVBRc2lpYmdsMDhIeFljaDJXTzVBUlNvZHRxMUU3UUJVVUxEUT09Cg==",
+      "url": "https://github.com/thiagoservicos23-cmd/vapor-releases/releases/download/v1.1.41/Vapor.Game.Launcher_1.1.41_x64-setup.exe"
     }
   }
 }
