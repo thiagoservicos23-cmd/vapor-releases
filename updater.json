@@ -1,11 +1,11 @@
 {
-  "version": "1.1.45",
-  "notes": "## Vapor Streaming\r\n\r\n- A aba Animes e o bot?o Anime da tela inicial usam os cat?logos Crunchyroll do SCPlus. Um manifesto SCPlus configurado pode ser adicionado pelo gerenciador de addons.\r\n- As grades de categoria t?m um bot?o Carregar mais e permitem tentar a mesma p?gina novamente em caso de falha.\r\n- O Vapor Player permite selecionar ou desativar legendas e carregar arquivos SRT e VTT. Inclui OpenSubtitles V3 Pro, LegendasDivx, LegendasBR e Pipocas TV como complementos.\r\n- Midnight e HentaiStream ficam na se??o Hanime. O Zeus BR fica dispon?vel para reprodu??o, assim como IracemaFlix.",
-  "pub_date": "2026-11-18T04:12:52.665Z",
+  "version": "15.0.0",
+  "notes": "# Vapor Game Launcher 15.0\n\n- Tema preto e prata no Launcher e no Vapor MAX integrado.\n- DepotBox como fonte inicial para consultar o catálogo do MAX, com Ryuu selecionável.\n- Novas tentativas automáticas quando a primeira consulta de saldo falha.\n- Validação de downloads para detectar respostas parciais, conteúdo vazio e tamanhos divergentes antes da instalação.",
+  "pub_date": "2026-11-19T19:42:57.669Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYThZcjlROHp2YjE1dnJabi82ejRMbWM2NGdhN2hkQVVDcnRZcEJjVU4xMlNPTHA2VzM3YXlhRlFjcEcxNkZZbGdDaDBzSHFCdVljWDBYVmtKN0tzckp2UkVCOGh1UUFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTc0Njk0CWZpbGU6VmFwb3IgR2FtZSBMYXVuY2hlcl8xLjEuNDVfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjEuMS40NQpPamVzUnRmanBjK3phcmpDb0xJR2NhbUI0QWt4WWthWE91VUExL3pwazEvSkZDRzcrVlpzVUpETVRXWVJKVExxaVdkZm4vR003ejhDQlNHUTNneDBBQT09Cg==",
-      "url": "https://github.com/thiagoservicos23-cmd/vapor-releases/releases/download/v1.1.45/Vapor.Game.Launcher_1.1.45_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYThZcjlROHp2YnpnSUVCblNFeGNXc2Z3MHRicnFKaDNHckxMVnl5ZCtRcWYwZjRoZGpkOTNCVU5DVnNpRFkrclk1Z291QytKOXlQZmN6SEJ4YThJd2w2b05zdVVpWEFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTE0ODI3CWZpbGU6VmFwb3IgR2FtZSBMYXVuY2hlcl8xNS4wLjBfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjE1LjAuMApQdk13cmYwVllBVHo2Z2g2R3NFczM1SmdhaWgzNjNnQkM0ZnBpRVhDZDhPQnUzcXpGZnp1SDJXaVprQlZwZlhaMU04aGtNK0tuL1Buc01wT3g3SWdEQT09Cg==",
+      "url": "https://github.com/thiagoservicos23-cmd/vapor-releases/releases/download/v15.0.0/Vapor.Game.Launcher_15.0.0_x64-setup.exe"
     }
   }
 }
