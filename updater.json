@@ -1,11 +1,11 @@
 {
-  "version": "15.0.0",
-  "notes": "# Vapor Game Launcher 15.0\n\n- Tema preto e prata no Launcher e no Vapor MAX integrado.\n- DepotBox como fonte inicial para consultar o catálogo do MAX, com Ryuu selecionável.\n- Novas tentativas automáticas quando a primeira consulta de saldo falha.\n- Validação de downloads para detectar respostas parciais, conteúdo vazio e tamanhos divergentes antes da instalação.",
-  "pub_date": "2026-11-19T19:42:57.669Z",
+  "version": "15.0.1",
+  "notes": "# Vapor Game Launcher 15.0.1\n\nOs seletores do catálogo agora mostram apenas API 1 e API 2. Versão de correção compatível com a atualização automática a partir da 15.0.0.",
+  "pub_date": "2026-11-19T21:01:32.758Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYThZcjlROHp2YnpnSUVCblNFeGNXc2Z3MHRicnFKaDNHckxMVnl5ZCtRcWYwZjRoZGpkOTNCVU5DVnNpRFkrclk1Z291QytKOXlQZmN6SEJ4YThJd2w2b05zdVVpWEFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTE0ODI3CWZpbGU6VmFwb3IgR2FtZSBMYXVuY2hlcl8xNS4wLjBfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjE1LjAuMApQdk13cmYwVllBVHo2Z2g2R3NFczM1SmdhaWgzNjNnQkM0ZnBpRVhDZDhPQnUzcXpGZnp1SDJXaVprQlZwZlhaMU04aGtNK0tuL1Buc01wT3g3SWdEQT09Cg==",
-      "url": "https://github.com/thiagoservicos23-cmd/vapor-releases/releases/download/v15.0.0/Vapor.Game.Launcher_15.0.0_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYThZcjlROHp2Ynd6UlM0WTJGMXJmQ3hYQUFReXB2YWJkRElTYU9JTkp2ZE5JSU8rVWhZTCs0Sit3bW03bFQyZFdCbnV0cXVMSFEzWUtTYXUvU3pZS3k1Vkg1Q01XSWdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTIxODE2CWZpbGU6VmFwb3IgR2FtZSBMYXVuY2hlcl8xNS4wLjFfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjE1LjAuMQpmWm1WSE56Z0piZUo1UlI1ZzZRNzFHWm5hNkhTM0RXN0orMjF3NjZnc3ZMakdFU3ZSaGg1cjIvdkJESlY1RitkTFpaZnpZQ2QxU2hRZjcwMlFBSEdBZz09Cg==",
+      "url": "https://github.com/thiagoservicos23-cmd/vapor-releases/releases/download/v15.0.1/Vapor.Game.Launcher_15.0.1_x64-setup.exe"
     }
   }
 }
