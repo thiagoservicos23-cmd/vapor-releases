@@ -1,11 +1,11 @@
 {
-  "version": "15.0.2",
-  "notes": "# Vapor Game Launcher 15.0.2\n\nIntegração oficial da API 1 (DepotBox) na seção de Fixes com download direto e geração de tokens temporários. Seletor de provedores API 1 (DepotBox) e API 2 (Ryuu) disponível na tela de Fixes e em Adicionar via link.",
-  "pub_date": "2026-11-20T04:02:02.820Z",
+  "version": "15.0.3",
+  "notes": "# Vapor Game Launcher 15.0.3\n\n- **Ports Nativos em Downloads:** Visualização completa na tela de Downloads com nome, fase e barra de progresso. Ao concluir o download e extração, o item é marcado como Instalado e removido da contagem de downloads pendentes/ativos.\n- **Ports Nativos na Biblioteca:** Jogos de Ports instalados (inclusive instalações prévias) são listados na Biblioteca com capa, título e acesso direto à tela de detalhes e ao botão Jogar.\n- **Resolvedores Gofile e MediaFire:** Priorização do fluxo público direto, com fallback transparente para o resolvedor anterior de reserva quando aplicável.\n- **Google Drive e MegaUp:** Suporte a links públicos diretos, interrompendo o fluxo caso o host exija desafio ou verificação humana.\n- **Cache de Fontes:** Armazenamento em cache de até 7 dias para links estáveis dos manifestos públicos configurados, com isolamento contra raspagem de catálogos externos.",
+  "pub_date": "2026-11-20T04:49:49.152Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYThZcjlROHp2YjlnQldONERCeWpTUXJhTFVMc29YaUpjYzBSSnFKaFRsZHhucUdqUGpRMnF6SllHVzlnN3V0dVZ5cm5ONUExeTNGd1FEdTZ0R3pKT21UbUNkamZGa3dVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTQ2OTE3CWZpbGU6VmFwb3IgR2FtZSBMYXVuY2hlcl8xNS4wLjJfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjE1LjAuMgpML2luQUFRQlB0OHd4b0FaZXlzUE5vNzFJcGxOR2EyTGZFVUZyMjJyQmt2QVVsV1ZDTUEwQzZMTldhQWlGNFBaME9xNndrZ2RHWDY2dkwyTDBZNnlDZz09Cg==",
-      "url": "https://github.com/thiagoservicos23-cmd/vapor-releases/releases/download/v15.0.2/Vapor.Game.Launcher_15.0.2_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYThZcjlROHp2YjBVeEVlRjZ5RVZWMTVBc1NzWW8vRnIvV3F5Y1Vvd29wTk9EVTlvb3ArV0REdDlRUVpBaW9PSHJZdUZJQ1RaaGdoVDJ5dlVjMDhpdWc4STF5bmU3VGc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTUwMTMxCWZpbGU6VmFwb3IgR2FtZSBMYXVuY2hlcl8xNS4wLjNfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjE1LjAuMwpNNTNQWTBsODBBaytqdS9EZlJvQThXejNnUmt0ZWlzYlR6cHdyNGIzZ3JPVjlHVkEyZ3NwdFRRU0JDWERJeFFVNkJUbkJaRFZhbncrNjQvcDFkWlpBQT09Cg==",
+      "url": "https://github.com/thiagoservicos23-cmd/vapor-releases/releases/download/v15.0.3/Vapor.Game.Launcher_15.0.3_x64-setup.exe"
     }
   }
 }
