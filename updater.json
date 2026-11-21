@@ -1,11 +1,11 @@
 {
-  "version": "15.0.3",
-  "notes": "# Vapor Game Launcher 15.0.3\n\n- **Ports Nativos em Downloads:** Visualização completa na tela de Downloads com nome, fase e barra de progresso. Ao concluir o download e extração, o item é marcado como Instalado e removido da contagem de downloads pendentes/ativos.\n- **Ports Nativos na Biblioteca:** Jogos de Ports instalados (inclusive instalações prévias) são listados na Biblioteca com capa, título e acesso direto à tela de detalhes e ao botão Jogar.\n- **Resolvedores Gofile e MediaFire:** Priorização do fluxo público direto, com fallback transparente para o resolvedor anterior de reserva quando aplicável.\n- **Google Drive e MegaUp:** Suporte a links públicos diretos, interrompendo o fluxo caso o host exija desafio ou verificação humana.\n- **Cache de Fontes:** Armazenamento em cache de até 7 dias para links estáveis dos manifestos públicos configurados, com isolamento contra raspagem de catálogos externos.",
-  "pub_date": "2026-11-20T04:49:49.152Z",
+  "version": "15.0.4",
+  "notes": "# Vapor Game Launcher 15.0.4\n\n- **Novas Opções de Assinatura:**\n  - Opção prioritária de Pix Automático mensal a R$ 14,90/mês com desconto exclusivo e renovação recorrente a cada 30 dias.\n  - Opção de Mensal Avulso a R$ 19,90 por 30 dias de acesso avulso.\n  - Opção Vitalícia a R$ 299,90 (pagamento único sem mensalidade).\n- **Interface de Pagamento Simplificada:**\n  - Remoção de avisos sobre privilégios de administrador.\n  - Rótulos visuais limpos e botão dinâmico de checkout conforme o plano selecionado.\n- **Sincronização com o Servidor de Licenciamento:**\n  - Emissão e validação de planos em tempo real.\n  - Desbloqueio e recarregamento automático do catálogo na confirmação do pagamento.",
+  "pub_date": "2026-11-21T04:14:36.819Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYThZcjlROHp2YjBVeEVlRjZ5RVZWMTVBc1NzWW8vRnIvV3F5Y1Vvd29wTk9EVTlvb3ArV0REdDlRUVpBaW9PSHJZdUZJQ1RaaGdoVDJ5dlVjMDhpdWc4STF5bmU3VGc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTUwMTMxCWZpbGU6VmFwb3IgR2FtZSBMYXVuY2hlcl8xNS4wLjNfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjE1LjAuMwpNNTNQWTBsODBBaytqdS9EZlJvQThXejNnUmt0ZWlzYlR6cHdyNGIzZ3JPVjlHVkEyZ3NwdFRRU0JDWERJeFFVNkJUbkJaRFZhbncrNjQvcDFkWlpBQT09Cg==",
-      "url": "https://github.com/thiagoservicos23-cmd/vapor-releases/releases/download/v15.0.3/Vapor.Game.Launcher_15.0.3_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYThZcjlROHp2YjZDZ3BCSlV6Y2NmOFNpUHJzd2RSOFpHb1c1R1FrNkNEWEZWeGg1d2oxcUpUVVRXSzY5dTRtK2xSN3VSUUE0R3lFZHJvOFlIWXEzV3kza21XWGMyY2dJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MjM0MzczCWZpbGU6VmFwb3IgR2FtZSBMYXVuY2hlcl8xNS4wLjRfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjE1LjAuNApIRXdoY3ovQ1BMV1o4dFU1elY3eStwd0dKejZNdlJmWW13V2hzQ1loVkx3QnU0azl5WnpYaHk4c0YvUGNzVE8veERFN2xMRXMxRmVXS2ptNUd1LzRDUT09Cg==",
+      "url": "https://github.com/thiagoservicos23-cmd/vapor-releases/releases/download/v15.0.4/Vapor.Game.Launcher_15.0.4_x64-setup.exe"
     }
   }
 }
