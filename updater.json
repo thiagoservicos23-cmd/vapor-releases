@@ -1,11 +1,11 @@
 {
-  "version": "15.0.5",
-  "notes": "# Vapor 15.0.5\r\n\r\n- Vapor Streaming prioriza o FenixFlix 1.3.0 e inclui Streaming Catalogs e Streaming Catalogs Plus como catálogos secundários. A pesquisa aceita títulos em português, com sugestões relacionadas.\r\n- A seção Animes reúne títulos dos catálogos configurados e preserva a seção Hanime.\r\n- Durante a reprodução em tela cheia no Vapor TV ou no Vapor Streaming, o aviso de atualização aparece em formato compacto.\r\n- VaporMax e VDMODS consultam os Builds públicos antes das fontes alternativas e podem acessar o catálogo Vapor Games na aba Bypass.",
-  "pub_date": "2026-11-24T14:45:28.173Z",
+  "version": "15.0.6",
+  "notes": "# Vapor Game Launcher 15.0.6\r\n\r\n- Top 10 Filmes e Top 10 Séries no início do Vapor Streaming, com as tendências semanais do TMDB.\r\n- Prateleira Lançamentos com filmes em cartaz no Brasil e séries que estrearam recentemente.\r\n- Seção Animes com filmes e séries de animação japonesa do TMDB e navegação por páginas.\r\n- As opções de reprodução continuam disponíveis pelo menu Fontes Vapor nos títulos atendidos pelos addons.",
+  "pub_date": "2026-11-24T18:25:41.799Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYThZcjlROHp2YnlzVEhBNW80d3FQQVM0ZnR0YWVkVENCRkxIRVdTeU9wbVRZMlZTTUZnRmgzeThFTFQvNVRlYnlyL1NCakEzRzIyS1RkSFJEdnVyOURJdFIwSHN2K1FVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTMxNTI1CWZpbGU6VmFwb3IgR2FtZSBMYXVuY2hlcl8xNS4wLjVfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjE1LjAuNQpwQW42MFU4aGNJNGlKeVgvc2dkR2tEZnJmSHpUMG1lZFpmWlZlMUpvVi8zcnplSWgxYTRqbTdKZmk4cmpDcWtUS1VWZS9kRHdyV2ZMVnNUb3NNbndBZz09Cg==",
-      "url": "https://github.com/thiagoservicos23-cmd/vapor-releases/releases/download/v15.0.5/Vapor.Game.Launcher_15.0.5_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRYThZcjlROHp2YjRoemV0dDRHSUJYaEFqMzQzTnN3ckJVVENSdTdUc2pOOXlNSDBmRE9uclJ1bjNoZUtWcjdvZ0pjYkJUOVpZbjFMM1ZKTTUwNHFiK0Q2VlQyWGRWeGdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTQ0NzM4CWZpbGU6VmFwb3IgR2FtZSBMYXVuY2hlcl8xNS4wLjZfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjE1LjAuNgpxMWRoUEdDeHZrQkNWdUI5MTk5emQ1V0thZGVVRi9pcFM0OHNYZFZyRy8vTmZBWVVYaXk5aGkvc2h4ZlczN0JlejB2dDJXN3FHMVkxMXUrc1g1aCtDZz09Cg==",
+      "url": "https://github.com/thiagoservicos23-cmd/vapor-releases/releases/download/v15.0.6/Vapor.Game.Launcher_15.0.6_x64-setup.exe"
     }
   }
 }
